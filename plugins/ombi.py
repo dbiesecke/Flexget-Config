@@ -8,7 +8,7 @@ from flexget.utils.requests import RequestException
 from flexget import plugin
 from flexget.event import event
 from flexget.entry import Entry
-from collections import MutableSet
+from collections.abc import MutableSet
 
 log = logging.getLogger('ombi_list')
 
